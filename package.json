@@ -1,16 +1,26 @@
 {
   "name": "goMaps",
-  "version": "0.0.1",
+  "version": "\\",
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "test": "jest"
   },
   "dependencies": {
+    "axios": "^0.17.1",
+    "immutable": "^3.8.2",
     "react": "16.0.0",
-    "react-native": "0.51.0"
+    "react-native": "0.51.0",
+    "react-redux": "^5.0.6",
+    "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0"
   },
   "jest": {
     "preset": "react-native"
-  }
+  },
+  "main": "index.js",
+  "repository": "git@github.com:NySiya/goMaps.git",
+  "author": "<siya.nyinfo@gmail.com>",
+  "license": "MIT",
+  "description": "]"
 }
